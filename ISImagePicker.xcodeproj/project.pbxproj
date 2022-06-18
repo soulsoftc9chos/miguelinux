@@ -12,6 +12,14 @@
 		6AC7B6B41DE2855A009A2E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7B6B21DE2855A009A2E01 /* Main.storyboard */; };
 		6AC7B6B61DE2855A009A2E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7B6B51DE2855A009A2E01 /* Assets.xcassets */; };
 		6AC7B6B91DE2855A009A2E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7B6B71DE2855A009A2E01 /* LaunchScreen.storyboard */; };
+		6AC7B6C21DE286A9009A2E01 /* ISImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7B6C11DE286A9009A2E01 /* ISImagePickerController.swift */; };
+		6AC7B6C41DE28823009A2E01 /* ISPhotoPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7B6C31DE28823009A2E01 /* ISPhotoPickerController.swift */; };
+		6AC7B6C61DE29227009A2E01 /* ISAlbumPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7B6C51DE29227009A2E01 /* ISAlbumPickerController.swift */; };
+		6AC7B6C81DE294E0009A2E01 /* ISAssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7B6C71DE294E0009A2E01 /* ISAssetManager.swift */; };
+		6AC7B6CB1DE2976D009A2E01 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC7B6CA1DE2976D009A2E01 /* Photos.framework */; };
+		6AC7B6CD1DE2F37F009A2E01 /* ISAssetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7B6CC1DE2F37F009A2E01 /* ISAssetCell.swift */; };
+		6AC7B6D11DE3182E009A2E01 /* ISImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7B6D01DE3182E009A2E01 /* ISImagePicker.bundle */; };
+		6AC7B6D31DE43869009A2E01 /* ISImagePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7B6D21DE43869009A2E01 /* ISImagePreviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		6AC7B6B51DE2855A009A2E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AC7B6B81DE2855A009A2E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AC7B6BA1DE2855A009A2E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC7B6C11DE286A9009A2E01 /* ISImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISImagePickerController.swift; sourceTree = "<group>"; };
+		6AC7B6C31DE28823009A2E01 /* ISPhotoPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISPhotoPickerController.swift; sourceTree = "<group>"; };
+		6AC7B6C51DE29227009A2E01 /* ISAlbumPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAlbumPickerController.swift; sourceTree = "<group>"; };
+		6AC7B6C71DE294E0009A2E01 /* ISAssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAssetManager.swift; sourceTree = "<group>"; };
+		6AC7B6CA1DE2976D009A2E01 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		6AC7B6CC1DE2F37F009A2E01 /* ISAssetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAssetCell.swift; sourceTree = "<group>"; };
+		6AC7B6D01DE3182E009A2E01 /* ISImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ISImagePicker.bundle; sourceTree = "<group>"; };
+		6AC7B6D21DE43869009A2E01 /* ISImagePreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISImagePreviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC7B6CB1DE2976D009A2E01 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,7 @@
 			children = (
 				6AC7B6AD1DE28559009A2E01 /* ISImagePicker */,
 				6AC7B6AC1DE28559009A2E01 /* Products */,
+				6AC7B6C91DE2976D009A2E01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +72,7 @@
 		6AC7B6AD1DE28559009A2E01 /* ISImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				6AC7B6C01DE28584009A2E01 /* ISImagePicker */,
 				6AC7B6AE1DE2855A009A2E01 /* AppDelegate.swift */,
 				6AC7B6B01DE2855A009A2E01 /* ViewController.swift */,
 				6AC7B6B21DE2855A009A2E01 /* Main.storyboard */,
@@ -62,6 +81,28 @@
 				6AC7B6BA1DE2855A009A2E01 /* Info.plist */,
 			);
 			path = ISImagePicker;
+			sourceTree = "<group>";
+		};
+		6AC7B6C01DE28584009A2E01 /* ISImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7B6D01DE3182E009A2E01 /* ISImagePicker.bundle */,
+				6AC7B6C11DE286A9009A2E01 /* ISImagePickerController.swift */,
+				6AC7B6C31DE28823009A2E01 /* ISPhotoPickerController.swift */,
+				6AC7B6C51DE29227009A2E01 /* ISAlbumPickerController.swift */,
+				6AC7B6C71DE294E0009A2E01 /* ISAssetManager.swift */,
+				6AC7B6CC1DE2F37F009A2E01 /* ISAssetCell.swift */,
+				6AC7B6D21DE43869009A2E01 /* ISImagePreviewController.swift */,
+			);
+			path = ISImagePicker;
+			sourceTree = "<group>";
+		};
+		6AC7B6C91DE2976D009A2E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7B6CA1DE2976D009A2E01 /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +137,7 @@
 				TargetAttributes = {
 					6AC7B6AA1DE28559009A2E01 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 87AQFDFMKM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AC7B6B91DE2855A009A2E01 /* LaunchScreen.storyboard in Resources */,
+				6AC7B6D11DE3182E009A2E01 /* ISImagePicker.bundle in Resources */,
 				6AC7B6B61DE2855A009A2E01 /* Assets.xcassets in Resources */,
 				6AC7B6B41DE2855A009A2E01 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC7B6C41DE28823009A2E01 /* ISPhotoPickerController.swift in Sources */,
+				6AC7B6D31DE43869009A2E01 /* ISImagePreviewController.swift in Sources */,
+				6AC7B6C61DE29227009A2E01 /* ISAlbumPickerController.swift in Sources */,
+				6AC7B6C21DE286A9009A2E01 /* ISImagePickerController.swift in Sources */,
+				6AC7B6C81DE294E0009A2E01 /* ISAssetManager.swift in Sources */,
+				6AC7B6CD1DE2F37F009A2E01 /* ISAssetCell.swift in Sources */,
 				6AC7B6B11DE2855A009A2E01 /* ViewController.swift in Sources */,
 				6AC7B6AF1DE2855A009A2E01 /* AppDelegate.swift in Sources */,
 			);
@@ -258,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87AQFDFMKM;
 				INFOPLIST_FILE = ISImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = invictus.ISImagePicker;
@@ -270,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87AQFDFMKM;
 				INFOPLIST_FILE = ISImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = invictus.ISImagePicker;
