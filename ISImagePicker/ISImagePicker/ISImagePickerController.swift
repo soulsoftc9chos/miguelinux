@@ -66,7 +66,7 @@ enum ISImagePickerOption{
 }
 
 protocol ISImagePickerControllerDelegate {
-    func imagePicker(picker:ISImagePickerController , didFinishPickImages images:[UIImage], sourceAssets assets:[Any] ,isSelectOriginalImage:Bool );
+    func imagePicker(picker:ISImagePickerController , didFinishPickImages images:[UIImage], sourceAssets assets:[ISAssetModel] ,isSelectOriginalImage:Bool );
     func imagePickerDidCancel(picker:ISImagePickerController);
 }
 

@@ -233,7 +233,7 @@ class ISImagePreiewController:UIViewController,UICollectionViewDelegate,UICollec
         
     }
     func backAct(sender:UIButton) -> Void{
-        self.navigationController?.popViewController(animated: true)
+       _ = self.navigationController?.popViewController(animated: true)
     }
     func orignalImgBtnAct(sender:UIButton) ->Void{
         IS_IMG_PICK_CONFIG.isSelectOrignalImage = !IS_IMG_PICK_CONFIG.isSelectOrignalImage

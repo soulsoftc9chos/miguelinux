@@ -62,7 +62,7 @@ class ViewController: UIViewController,ISImagePickerControllerDelegate ,UICollec
         imagePicker.imagePickerDelegate = self
         self.present(imagePicker, animated: true, completion: nil)
     }
-    func imagePicker(picker:ISImagePickerController , didFinishPickImages images:[UIImage], sourceAssets assets:[Any] ,isSelectOriginalImage:Bool ){
+    func imagePicker(picker:ISImagePickerController , didFinishPickImages images:[UIImage], sourceAssets assets:[ISAssetModel] ,isSelectOriginalImage:Bool ){
        self.images = images
        collectionView.reloadData()
     }
