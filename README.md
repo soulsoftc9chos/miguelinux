@@ -33,8 +33,8 @@ iOS ImagePicker(like wechat) written in Swift with PhotoKit
         self.present(imagePicker, animated: true, completion: nil)
         
 ##Implement ISImagePickerControllerDelegate Method
-func imagePicker(picker:ISImagePickerController , didFinishPickImages images:[UIImage], sourceAssets assets:[ISAssetModel] ,isSelectOriginalImage:Bool ){
+ func imagePicker(picker:ISImagePickerController , didFinishPickImages images:[UIImage], sourceAssets assets:[ISAssetModel] ,isSelectOriginalImage:Bool ){
 }
-func imagePickerDidCancel(picker:ISImagePickerController){
+ func imagePickerDidCancel(picker:ISImagePickerController){
 }
    </pre code>
