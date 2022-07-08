@@ -14,7 +14,7 @@ iOS ImagePicker(like wechat) written in Swift with PhotoKit
 //conform ISImagePickerControllerDelegate
  let options:[ISImagePickerOption] = [
             .MaxImagesCount(9),
-            ISImagePickerOption.IsPickVideo(false),
+            .IsPickVideo(false),
             .IsPickImage(true),
             .IsShowTakePictureBtn(true),
             .ColumnCount(4),
