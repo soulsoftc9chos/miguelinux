@@ -9,6 +9,7 @@ iOS ImagePicker(like wechat) written in Swift with PhotoKit
 * iOS8.0
 * Device Support: Universal
 * Device Orientaion Support:All
+
 ##UseAge
 <pre code>
 //conform ISImagePickerControllerDelegate
